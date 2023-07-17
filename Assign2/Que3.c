@@ -30,7 +30,6 @@ int main(int argc, char* argv[])
         return -1;
     }
 
-    
     while ((entry = readdir(dp)) != NULL)
     {
         printf("%s\n",entry->d_name);
