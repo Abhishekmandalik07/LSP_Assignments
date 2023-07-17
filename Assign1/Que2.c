@@ -12,7 +12,6 @@ int main(int argc, char* argv[])
     int fd = 0;
     int mode=0;
 
-
     if(argc !=3)
     {
         printf("Insufficient Number of Arguments..\n");
